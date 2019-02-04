@@ -17,7 +17,7 @@
 /** Header **/
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+    @apply flex items-center justify-between flex-wrap bg-blue-darker p-6;
 }
 
 .header-title {
