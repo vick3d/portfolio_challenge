@@ -18,8 +18,8 @@ const App = () => {
                 <div className="content-wrapper">
                     <Switch>
                         <Route exact path='/' component={Hello}></Route>
-                        <Route exact path='/' component={About}></Route>
-                        <Route exact path='/' component={Projects}></Route>
+                        <Route exact path='/About' component={About}></Route>
+                        <Route exact path='/Projects' component={Projects}></Route>
                     </Switch>
                 </div>
                 <Footer />
