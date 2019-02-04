@@ -1,9 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import {BrowserRouter} from "react-router-dom"
+import { Switch, Route } from "react-router-dom"
 import './css/tailwind.css'
-import Hello from "./Hello"
 import Header from "./Header"
+import About from "./About"
+import Projects from "./Projects"
+import Hello from "./Hello"
 import Footer from "./Footer"
+
 
 const App = () => {
     return (
@@ -11,7 +16,11 @@ const App = () => {
             <div className="page-content">
                 <Header />
                 <div className="content-wrapper">
-                    <Hello />
+                    <Switch>
+                        <Route exact path='/' component={Hello}></Route>
+                        <Route exact path='/' component={About}></Route>
+                        <Route exact path='/' component={Projects}></Route>
+                    </Switch>
                 </div>
                 <Footer />
             </div>  
@@ -20,4 +29,8 @@ const App = () => {
     )
 };
 
-ReactDOM.render(<App />,document.getElementById("app"))
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+),  document.getElementById("app"));
