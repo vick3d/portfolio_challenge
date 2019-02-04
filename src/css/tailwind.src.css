@@ -24,6 +24,23 @@
     @apply text-white text-3xl;
 }
 
+.header-ulist {
+    @apply flex;
+}
+
+.header-list {
+    @apply mr-6 list-reset;
+}
+
+.header-navlink {
+    @apply text-white no-underline font-bold ; 
+}
+
+.header-navlink:hover {
+    @apply text-grey no-underline font-bold; 
+}
+
+
 /** Footer  **/
 
 .footer-wrapper {
