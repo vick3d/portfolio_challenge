@@ -17,7 +17,11 @@
 /** Header **/
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-blue-darker p-6;
+    @apply flex items-center justify-between flex-wrap bg-black p-6 sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .header-title {
