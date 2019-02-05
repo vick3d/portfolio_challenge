@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className="header">
             <h1 className="header-title">
-                <Scrollchor className="header-navlink" to="#Home">My Portfolio</Scrollchor>
+                <Link className="header-navlink" to='/'>My Portfolio</Link>
             </h1>
             <ul className="header-ulist">
                 <li className="header-list"><Scrollchor className="header-navlink" to="#Projects">My Projects</Scrollchor></li>
