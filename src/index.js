@@ -15,7 +15,7 @@ const App = () => {
     return (
         <div>
             <Header />
-            <section className="parallax-section" >
+            <section id="Home" className="parallax-section" >
                 <div className=" image-block parallax1" data-speed=".5">
                     <div>
                         <h1>Viktors Portfolio</h1>

@@ -1,15 +1,16 @@
 import React from "react"
-import {HashLink, Link} from "react-router-hash-link"
+import {NavLink, Link} from "react-router-dom"
+import Scrollchor from 'react-scrollchor';
 
 const Header = () => {
     return (
         <nav className="header">
             <h1 className="header-title">
-                <Link className="header-navlink" to='/'>My Portfolio</Link>
+                <Scrollchor className="header-navlink" to="#Home">My Portfolio</Scrollchor>
             </h1>
             <ul className="header-ulist">
-                <li className="header-list"><Link to="about-me#About">About me</Link></li>
-                <li className="header-list"><NavLink className="header-navlink" to='/projects'>My Projects</NavLink></li>
+                <li className="header-list"><Scrollchor className="header-navlink" to="#Projects">My Projects</Scrollchor></li>
+                <li className="header-list"><Scrollchor className="header-navlink" to="#About">About me</Scrollchor></li>
             </ul>
         </nav>
     )
