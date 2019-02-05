@@ -27,6 +27,7 @@ const App = () => {
                 <h2>Projects</h2>
                 <p>This is a showcase of my current work.
                 </p>
+                <Projects />
             </section>
             <section className="parallax-section">
                 <div className=" image-block parallax2"  data-speed=".5">
@@ -38,6 +39,7 @@ const App = () => {
                 <h2>About me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquam incidunt, nesciunt id culpa nobis eius nemo recusandae dicta alias, voluptatum nisi unde consequatur? Perspiciatis incidunt tempora qui laboriosam modi?</p>
             </section>
+            <Footer />
         </div>
         // <div className="page-wrapper">
         //     <div className="page-content">
@@ -49,7 +51,7 @@ const App = () => {
         //                 <Route exact path='/Projects' component={Projects}></Route>
         //             </Switch>
         //         </div>
-        //         <Footer />
+        //        
         //     </div>  
         // </div>
 
