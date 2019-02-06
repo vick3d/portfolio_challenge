@@ -4,6 +4,8 @@ import {BrowserRouter} from "react-router-dom"
 import { Switch, Route } from "react-router-dom"
 import './css/tailwind.css'
 import './css/parallax.css'
+import './css/slider.css'
+import ProjectSlides from "./Slider"
 import Header from "./Header"
 import About from "./About"
 import Projects from "./Projects"
@@ -12,6 +14,24 @@ import Footer from "./Footer"
 
 
 const App = () => {
+    
+    const slides = [
+        {
+          city: '',
+          country: 'FizzBuzz in JavaScript',
+          img: 'https://anckor.cdn.prismic.io/anckor/cda974367bd7caffa2165b3805378d12167e9935_7-waves.jpg',
+        },
+        {
+          city: '',
+          country: 'Address-Book in JavaScript',
+          img: 'https://anckor.cdn.prismic.io/anckor/c413486a042000e79a6f0fb4b3e74ad381989be7_1-beach.jpg',
+        },
+        {
+          city: '',
+          country: 'BMI-Calculator in JavaScript',
+          img: 'https://anckor.cdn.prismic.io/anckor/255231e801a040e2a4f72aaa69a1edea5bc9a152_13-work-session.jpg',
+        },
+];
     return (
         <div>
             <Header />
@@ -23,11 +43,8 @@ const App = () => {
                     </div>
                 </div>
             </section>
-            <section id="Projects" className="text-block">
-                <h2>Projects</h2>
-                <p>This is a showcase of my current work.
-                </p>
-                <Projects />
+            <section id="Projects" className="text-block2">
+                <ProjectSlides slides={slides}/>
             </section>
             <section className="parallax-section">
                 <div className=" image-block parallax2"  data-speed=".5">
