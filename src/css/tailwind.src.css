@@ -17,7 +17,7 @@
 /** Header **/
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-black p-6 sticky;
+    @apply flex items-center justify-between flex-wrap bg-black p-6 sticky border-b border-grey-darker;
     position: fixed;
     top: 0;
     width: 100%;
