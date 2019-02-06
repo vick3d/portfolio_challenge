@@ -48,7 +48,11 @@
 /** Footer  **/
 
 .footer-wrapper {
-    @apply flex justify-center text-grey;
+    @apply flex justify-center text-white p-4 bg-black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 /** Content section **/
