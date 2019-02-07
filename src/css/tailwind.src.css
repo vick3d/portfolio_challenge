@@ -33,7 +33,7 @@
 }
 
 .header-list {
-    @apply mr-6 list-reset;
+    @apply mr-4 list-reset;
 }
 
 .header-navlink {
@@ -54,6 +54,20 @@
     width: 100%;
     z-index: 999;
 }
+
+.footer-content {
+    @apply justify-center text-center;
+    width: 100%;
+    
+}
+
+.footer-image {
+    @apply justify-center mr-6;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}   
 
 /** Content section **/
 

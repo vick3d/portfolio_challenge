@@ -56,7 +56,7 @@ class ProjectSlides extends Component {
                       <h2 className="slider__slide-heading">
                         {slide.city.split('').map(l => <span>{l}</span>)}
                       </h2>
-                      <p className="slider__slide-readmore"></p>
+                      <p className="slider__slide-readmore">This could be some more text if I would like</p>
                     </div>
                     <div className="slider__slide-parts">
                       {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
