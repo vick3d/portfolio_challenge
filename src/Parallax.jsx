@@ -15,7 +15,7 @@ let speed = parallaxNode1[0].getAttribute('data-speed');
     
     )
 
-// ------------- SET TIMEOUT TO TEMPORARILY "LOCK" SLIDES ------------- //
+
 };
 
 export default Parallax

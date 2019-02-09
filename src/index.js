@@ -9,7 +9,8 @@ import ProjectSlides from "./Slider"
 import Header from "./Header"
 import About from "./About"
 import ImageBreak from "./ImageBreak"
-// import Projects from "./Projects"
+import Parallax from "./Parallax"
+import Experiences from "./Experiences"
 import Hello from "./Hello"
 import Footer from "./Footer"
 
@@ -47,6 +48,7 @@ const App = () => {
                 </section>
                 <section id="About" className="text-block">
                     <About />
+                    <Experiences />
                 </section>
             <Footer />
         </div>

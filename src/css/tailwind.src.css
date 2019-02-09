@@ -14,10 +14,67 @@
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
 
+
+
+.leftSide {
+    width: 60%;
+    float: left;
+   
+    }
+
+.rightSide {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/monalisa.jpg');
+    background-size: cover;
+
+}
+
+.story-header {
+    margin: 0;  
+}
+
+.story-header-text {
+    color: rgb(218, 218, 196);
+    padding: 7px 0;
+}
+.rightStory {
+    float: left;
+    width: 40%;
+}
+
+
+.story{
+    display: flex;
+    padding: 1% 0;
+    background: black;
+    /* linear-gradient(90deg, rgb(44, 44, 44), rgb(0, 0, 0)); */
+   
+}
+
+.leftStory {
+    float: left;
+    width: 25%;
+    padding: 0 2%;
+}
+
+.rightStory {
+    float: left;
+    width: 40%;
+}
+.clear {
+    clear: both;
+}
+
 /** Header **/
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-black p-6 sticky border-b border-grey-darker;
+    @apply flex items-center justify-between flex-wrap p-6 sticky;
+    background: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -48,7 +105,8 @@
 /** Footer  **/
 
 .footer-wrapper {
-    @apply flex justify-center text-white p-4 bg-black;
+    @apply flex  text-white p-5;
+    background: black;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -79,8 +137,3 @@
     @apply text-grey-dark;
 }
 
-.column {
-    flex: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }

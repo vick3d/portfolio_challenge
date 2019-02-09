@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "position": "Work title",
+      "company": "Swedbank",
+      "period": "2010",
+      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+    },
+    {
+      "id": 2,
+      "position": "Work title",
+      "company": "Swedbank",
+      "period": "2010-2014",
+      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+    },
+    {
+      "id": 3,
+      "position": "Work title",
+      "company": "Swedbank",
+      "period": "1990-2018",
+      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+    }
+]
+
