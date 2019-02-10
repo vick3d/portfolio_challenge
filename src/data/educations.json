@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "education": "Full stack web-development",
+      "school": "Craft Academy",
+      "period": "2018 - present",
+      "descr": "Currently attending a Fullstack Webdevelopment Course at Craft Academy"
+    },
+    {
+      "id": 2,
+      "education": "Courses in Agile Development",
+      "school": "Internal Swedbank",
+      "period": "2015 - present",
+      "descr": ""
+    },
+    {
+      "id": 3,
+      "education": "Social science",
+      "school": "Minerva Gymnasium",
+      "period": "2006-2009",
+      "descr": ""
+    }
+    
+]
+

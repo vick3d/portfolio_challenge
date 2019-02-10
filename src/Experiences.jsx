@@ -3,9 +3,6 @@ import axios from "axios"
 import ExperienceList from "./Experience-list"
 
 
-
-
-
 class Experiences extends Component {
     constructor() {
         super();
@@ -24,7 +21,7 @@ class Experiences extends Component {
     }
 
     render() {
-                const experiences = this.state.experiences
+        const experiences = this.state.experiences
         let experienceList
 
         if(experiences.length > 0) {
@@ -32,17 +29,13 @@ class Experiences extends Component {
                 return (
                     <div key={experience.id}>
                         <ExperienceList experience={experience} />
-                       
                     </div>
                 )
             })
         }
 
         return (
-            <div>
-                {experienceList}
-            </div>
-            
+            <div>{experienceList}</div>  
         )
     }
 };

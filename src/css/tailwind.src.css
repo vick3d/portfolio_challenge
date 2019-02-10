@@ -3,72 +3,32 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Unica+One');
 
-/** Page **/
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Unica One';
+    color: rgb(218, 218, 196);
+}
+
+
+
+p{
+    font-family: 'Roboto';
+    line-height: 1em;
+    padding-left: 2%;
+}
+
+
 
 .page-wrapper {
     @apply min-h-screen;
-}
-
+    }
+    
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
 
-
-
-.leftSide {
-    width: 60%;
-    float: left;
-   
-    }
-
-.rightSide {
-    width: 40%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    overflow: hidden;
-    background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/monalisa.jpg');
-    background-size: cover;
-
-}
-
-.story-header {
-    margin: 0;  
-}
-
-.story-header-text {
-    color: rgb(218, 218, 196);
-    padding: 7px 0;
-}
-.rightStory {
-    float: left;
-    width: 40%;
-}
-
-
-.story{
-    display: flex;
-    padding: 1% 0;
-    background: black;
-    /* linear-gradient(90deg, rgb(44, 44, 44), rgb(0, 0, 0)); */
-   
-}
-
-.leftStory {
-    float: left;
-    width: 25%;
-    padding: 0 2%;
-}
-
-.rightStory {
-    float: left;
-    width: 40%;
-}
-.clear {
-    clear: both;
-}
 
 /** Header **/
 
@@ -80,60 +40,120 @@
     width: 100%;
     z-index: 999;
 }
-
+    
 .header-title {
     @apply text-white text-3xl;
 }
-
+    
 .header-ulist {
     @apply flex;
 }
-
+    
 .header-list {
     @apply mr-4 list-reset;
 }
-
+    
 .header-navlink {
     @apply text-white no-underline font-bold ; 
 }
-
+    
 .header-navlink:hover {
-    @apply text-grey no-underline font-bold; 
+    @apply no-underline font-bold;
+    color: rgba(1, 221, 184, 0.68);
 }
-
-
-/** Footer  **/
-
+    
+/** Footer **/
+    
 .footer-wrapper {
-    @apply flex  text-white p-5;
+    @apply flex text-white p-5;
     background: black;
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 999;
 }
-
+    
 .footer-content {
     @apply justify-center text-center;
     width: 100%;
-    
 }
-
+    
 .footer-image {
     @apply justify-center mr-6;
     position: fixed;
     right: 0;
     bottom: 0;
+    
+} 
+    
+/** Bottom Page **/
+    
 
-}   
-
-/** Content section **/
-
-.content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+.story{
+    display: flex;
+    padding: 5% 0;
 }
 
-.content-text {
-    @apply text-grey-dark;
+.story h2, .story h3{
+    font-size: 1.2em;
+    word-break: break-all;
 }
+
+.leftStory{    
+    width: 35%;
+    padding: 0 2%;
+}
+
+.rightStory{    
+    width: 60%;
+}
+.clear{
+    clear: both;
+}
+
+.leftSide{
+    width: 60%;
+    float: left;
+    background: linear-gradient(180deg, black, #333);
+    padding-bottom: 5%;
+}
+
+.rightSide{
+    width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('');
+    background-size: cover;
+    transition: background-image 0.3s;
+}
+
+.headerTitle{
+    font-size: 1.8em;
+    margin: 0 !important;
+    color: rgb(218, 218, 196);
+}
+
+.headerTitle h1{
+    margin: 0;
+    padding: 2%;
+}
+
+.lname{
+    color: rgba(1, 221, 184, 0.68);
+}
+
+.headerText{
+    color: rgb(218, 218, 196);
+    width: 80%;
+}
+
+
+
+
+
+
+
 

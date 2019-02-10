@@ -18,6 +18,7 @@ class ProjectSlides extends Component {
         
         componentDidMount() {
           this.runAutochangeTO();
+          
           setTimeout(() => {
             this.setState({ activeSlide: 0, sliderReady: true });
           }, 0);
@@ -49,14 +50,14 @@ class ProjectSlides extends Component {
                 {this.props.slides.map((slide, index) => (
                   <div
                     className={classNames('slider__slide', { 's--active': activeSlide === index, 's--prev': prevSlide === index  })}
-                    key={slide.city}
+                    key={slide.project}
                     >
                     <div className="slider__slide-content">
-                      <h3 className="slider__slide-subheading">{slide.country || slide.city}</h3>
-                      <h2 className="slider__slide-heading">
-                        {slide.city.split('').map(l => <span>{l}</span>)}
+                      <h3 className="slider__slide-subheading">{slide.language || slide.project}</h3>
+                      <h2 className="slider__slide-heading lname">
+                        {slide.project.split('').map(l => <span>{l}</span>)}
                       </h2>
-                      <p className="slider__slide-readmore">This could be some more text if I would like</p>
+                      {/* <p className="slider__slide-readmore">This could be some more text if I would like</p> */}
                     </div>
                     <div className="slider__slide-parts">
                       {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (

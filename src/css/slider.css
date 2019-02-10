@@ -1,11 +1,14 @@
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light?selection.family=Roboto|Shadows+Into+Light');
+
+
 *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  
+
   body {
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fff;
   }
   
@@ -147,9 +150,9 @@
     font-size: 14px;
     text-transform: lowercase;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
     -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    transform: translateY(-20px); 
     cursor: pointer;
     opacity: 0;
     transition: 0.5s;

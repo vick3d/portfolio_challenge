@@ -3,49 +3,20 @@ import React from "react"
 
 const About = () => {
     return (
-        <div className="">
-            <div className="leftSide">
-                <h2 className="story-header text-6xl ml-6 pl-6 pr-10 pt-2">Viktor Olsson</h2>
-                    <div className="story-header-text w-1/2 ml-6"> 
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                        <p> </p>
-                    </div>
-                {/* <div className="story">
-                    <div className="leftStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                    <div className="rightStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                </div> 
-                <div className="story">
-                    <div className="leftStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                    <div className="rightStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                </div> 
-                <div className="story">
-                    <div className="leftStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                    <div className="rightStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                </div> 
-                <div className="story">
-                    <div className="leftStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                    <div className="rightStory text-white">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum cum qui fuga, totam, dignissimos maiores rem id voluptates cumque, molestias beatae? Aliquid officiis deleniti necessitatibus ratione voluptate, aspernatur illum.</p>
-                    </div>
-                </div>      
-                       */}
-            </div>     
-            <div className="rightSide"></div>
+      <div>       
+        <div class="leftHeader">
+            <div class="headerTitle">
+                <h1>Viktor <span class="lname">Olsson</span></h1>
+            </div>
+            <div className="headerText"> 
+                <p> 28-year old Business Analyst working at Swedbank.</p>
+                <p>Briefly, I would like present my self as hard-working and dedicated person who always strive to learn more.</p>
+                 <p> I've been working in the lending area at Swedbank for almost 9 years and during the last couple of years I've been working with system development. </p>
+            </div>
         </div>
+        <div className="rightSide"></div>
+    </div>
+    
     )
 };
 

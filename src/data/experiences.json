@@ -1,24 +1,33 @@
 [
     {
       "id": 1,
-      "position": "Work title",
-      "company": "Swedbank",
-      "period": "2010",
-      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+      "position": "Business Analyst",
+      "company": "Swedbank AB",
+      "period": "2018 - present",
+      "descr": "As a Business Analyst I am responisble for being the link between the developers and the stakeholders/business. I Review, analyze and evaluate business systems and user needs. Document requirements, define scope and objectives and formulate systems to parallel overall business strategies."
     },
     {
       "id": 2,
-      "position": "Work title",
-      "company": "Swedbank",
-      "period": "2010-2014",
-      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+      "position": "Business System Manager",
+      "company": "Swedbank AB",
+      "period": "2015 - 2018",
+      "descr": "Responsible for the maintenance of the system as well as supporting further system development and testing."
     },
     {
       "id": 3,
-      "position": "Work title",
-      "company": "Swedbank",
-      "period": "1990-2018",
-      "descr": "Lorem ipsum dolor and some more and some smore and more and more and more"
+      "position": "Credit officer",
+      "company": "Swedbank AB",
+      "period": "2012 - 2015",
+      "descr": "Adminstrate and manage incoming credit applications regarding leasing and hire-purchase agreements."
+    },
+    {
+      "id": 4,
+      "position": "Administrator",
+      "company": "Swedbank Finans AB",
+      "period": "2010 - 2012",
+      "descr": "Administrate incoming and outgoing agreements, invoices and other documents. Handle supplier payments and start of agreement etc. "
     }
+    
+    
 ]
 
