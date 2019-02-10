@@ -6,7 +6,7 @@ const ExperienceList = (props) => {
         <div class="story">
             <div class="leftStory">
                 <h3>{experience.position}</h3>
-                <h2 class="year">{experience.period} <br></br>{experience.company}</h2>        
+                <h4 class="year">{experience.period} <br></br>{experience.company}</h4>        
             </div>
             <div class="rightStory">
                 <p>{experience.descr}</p>
