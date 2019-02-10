@@ -46,13 +46,13 @@ body p {
   width: 100%;
 }
 .parallax-section .image-block.parallax1 {
-  background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://hostbangla.com/wp-content/uploads/2016/12/website-design-background.png");
   background-attachment: fixed;
   
 }
 .parallax-section .image-block.parallax2 {
  
-  background-image: url("https://hostbangla.com/wp-content/uploads/2016/12/website-design-background.png");
+  background-image: url("http://www.habilelabs.io/wp-content/uploads/2017/09/it-background-5.jpg");
   background-attachment: fixed;
 }
 

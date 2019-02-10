@@ -25,12 +25,12 @@ const App = () => {
         {
           project: 'Address-Book',
           language: 'JavaScript',
-          img: 'https://anckor.cdn.prismic.io/anckor/c413486a042000e79a6f0fb4b3e74ad381989be7_1-beach.jpg',
+          img: 'https://www.cumminsandwhite.com/wp-content/uploads/2017/03/Black-Desk-Background.jpg',
         },
         {
           project: 'BMI-Calculator',
           language: 'JavaScript',
-          img: 'https://anckor.cdn.prismic.io/anckor/255231e801a040e2a4f72aaa69a1edea5bc9a152_13-work-session.jpg',
+          img: 'https://www.santam.co.za/assets/img/home/risk-1.jpg',
         },
 ];
     return (
