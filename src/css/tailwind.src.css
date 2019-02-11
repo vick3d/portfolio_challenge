@@ -63,9 +63,9 @@ p{
 }
     
 /** Footer **/
-    
-.footer-wrapper {
-    @apply flex text-white p-5;
+
+.footer {
+    @apply flex items-center justify-center flex-wrap p-5;
     background: black;
     position: fixed;
     bottom: 0;
@@ -73,18 +73,21 @@ p{
     z-index: 999;
 }
     
-.footer-content {
-    @apply justify-center text-center;
-    width: 100%;
+.footer-ulist {
+    @apply flex list-reset;
+
 }
-    
-.footer-image {
-    @apply justify-center mr-6;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    
-} 
+
+.footer-list {
+    @apply mr-4 list-reset ;
+}
+
+.footer-envelope {
+    @apply mt-3;
+    font-size: 40px;
+    color: rgba(1, 221, 184, 0.68);
+}
+  
     
 /** Bottom Page **/
     
